@@ -1,0 +1,17 @@
+# Optional: richer cross-platform hardware and process/network counters.
+psutil>=6.0,<8
+
+# Basic PDF page tools and password-based PDF opening.
+pypdf[crypto]>=5,<7
+# Raster crop/resize/rotate and PNG export.
+Pillow>=10.4,<14
+
+# Disc filesystem provider (native ISO extraction / equal-length replacement need none).
+pycdlib>=1.14,<2
+# Public website-page to media URL resolution. Direct URLs need none.
+yt-dlp
+# Cartridge backup: install FlashGBX separately using its official instructions.
+
+# PDF click-to-correct text and DOCX paragraph editing.
+PyMuPDF>=1.24.2,<2
+lxml>=5,<7
